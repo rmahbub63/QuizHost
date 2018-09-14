@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="333.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProgLogicUIController.StudentSidePanelContentController">
+   <children>
+      <ImageView fitHeight="65.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../back.jpg" />
+         </image></ImageView>
+      <JFXButton fx:id="btnMain" buttonType="RAISED" minHeight="45.0" prefHeight="52.0" prefWidth="200.0" ripplerFill="#fc0000" stylesheets="@../design/style.css" text="Nothing" />
+      <JFXButton fx:id="b1" buttonType="RAISED" minHeight="45.0" onAction="#menuChoice" prefHeight="45.0" prefWidth="200.0" ripplerFill="#fc0000" style="-fx-background-color: #f1f1f1;" text="Attend On Quiz" />
+      <JFXButton fx:id="b2" buttonType="RAISED" layoutX="10.0" layoutY="123.0" minHeight="45.0" onAction="#menuChoice" prefHeight="45.0" prefWidth="200.0" ripplerFill="#fc0000" style="-fx-background-color: #f1f1f1;" text="Quiz Record" />
+      <JFXButton fx:id="b112" buttonType="RAISED" minHeight="45.0" onAction="#menuChoice" prefHeight="45.0" prefWidth="200.0" ripplerFill="#fc0000" style="-fx-background-color: #f1f1f1;" text="Learn" />
+      <JFXButton fx:id="b11" buttonType="RAISED" minHeight="45.0" onAction="#menuChoice" prefHeight="45.0" prefWidth="200.0" ripplerFill="#fc0000" style="-fx-background-color: #f1f1f1;" text="Share Learning Source" />
+      <JFXButton fx:id="b3" buttonType="RAISED" layoutX="10.0" layoutY="197.0" minHeight="45.0" onAction="#menuChoice" prefHeight="45.0" prefWidth="200.0" ripplerFill="#fc0000" style="-fx-background-color: #f1f1f1;" text="Settings" />
+      <JFXButton fx:id="b111" buttonType="RAISED" minHeight="45.0" onAction="#menuChoice" prefHeight="45.0" prefWidth="200.0" ripplerFill="#fc0000" style="-fx-background-color: #f1f1f1;" text="Log Out" />
+   </children>
+</VBox>

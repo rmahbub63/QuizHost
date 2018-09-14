@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProgLogicUIController.QuestionEntryUIController">
+   <children>
+      <Label fx:id="lblEntryQuestion" layoutX="30.0" layoutY="27.0" prefHeight="23.0" prefWidth="548.0" text="Enter Question" textFill="#0a5d79">
+         <font>
+            <Font name="Broadway" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="212.0" text="Option One :">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="326.0" layoutY="212.0" text="Option Two :">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="259.0" text="Option Three :">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="325.0" layoutY="259.0" text="Option Four :">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="329.0" text="Correct Answer :" />
+      <TextField fx:id="txtOptionOne" layoutX="133.0" layoutY="209.0" prefHeight="25.0" prefWidth="169.0" />
+      <TextField fx:id="txtOptionTwo" layoutX="414.0" layoutY="212.0" prefHeight="25.0" prefWidth="162.0" />
+      <TextField fx:id="txtOptionThree" layoutX="133.0" layoutY="256.0" prefHeight="25.0" prefWidth="169.0" />
+      <TextField fx:id="txtOptionFour" layoutX="414.0" layoutY="259.0" prefHeight="25.0" prefWidth="162.0" />
+      <TextField fx:id="txtCorrectAns" layoutX="136.0" layoutY="325.0" prefHeight="25.0" prefWidth="169.0" />
+      <Label layoutX="33.0" layoutY="97.0" prefHeight="21.0" prefWidth="149.0" text="Question Statement :">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <TextField fx:id="txtQuesStatement" layoutX="31.0" layoutY="121.0" prefHeight="71.0" prefWidth="548.0" />
+      <Button fx:id="btnSubmit" layoutX="421.0" layoutY="319.0" mnemonicParsing="false" onAction="#btnSubmitAction" prefHeight="37.0" prefWidth="149.0" stylesheets="@../design/style.css" text="Submit Question" />
+      <Label layoutX="33.0" layoutY="69.0" text="Question Number :" textFill="#039ed3">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <Label fx:id="lblEntryNumber" layoutX="182.0" layoutY="69.0" prefHeight="21.0" prefWidth="192.0" text="00" textFill="#039ed3">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <ProgressBar fx:id="pbShowSubmit" layoutX="26.0" layoutY="368.0" prefHeight="18.0" prefWidth="548.0" progress="0.0" />
+   </children>
+</AnchorPane>

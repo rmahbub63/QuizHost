@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProgLogicUIController.ProblemListUIController">
+   <children>
+      <Label layoutX="200.0" layoutY="54.0" text="Problem List">
+         <font>
+            <Font name="Arial Bold" size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="71.0" layoutY="120.0" text="Problem No." />
+      <Label layoutX="172.0" layoutY="120.0" text="Problem Name" />
+      <Label layoutX="71.0" layoutY="156.0" text="1." />
+      <Label layoutX="71.0" layoutY="192.0" text="2." />
+      <Label layoutX="71.0" layoutY="224.0" text="3." />
+      <Label layoutX="71.0" layoutY="253.0" text="4." />
+      <Label layoutX="71.0" layoutY="284.0" text="5." />
+      <Label layoutX="71.0" layoutY="317.0" text="6." />
+      <Label layoutX="71.0" layoutY="343.0" text="7." />
+   </children>
+</AnchorPane>

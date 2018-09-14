@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="380.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProgLogicUIController.TeacherSidePanelContentController">
+   <children>
+      <ImageView fitHeight="65.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../back.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="btnMain" buttonType="RAISED" minHeight="45.0" onAction="#menuChoice" prefHeight="68.0" prefWidth="200.0" ripplerFill="#fc0000" stylesheets="@../design/style.css" text="Nothing" />
+      <JFXButton fx:id="b121" buttonType="RAISED" minHeight="45.0" onAction="#menuChoice" prefHeight="45.0" prefWidth="200.0" ripplerFill="#fc0000" style="-fx-background-color: #f1f1f1;" text="Quiz Entry" />
+      <JFXButton fx:id="b2" buttonType="RAISED" layoutX="10.0" layoutY="123.0" minHeight="45.0" onAction="#menuChoice" prefHeight="45.0" prefWidth="200.0" ripplerFill="#fc0000" style="-fx-background-color: #f1f1f1;" text="Quiz Result" />
+      <JFXButton fx:id="b3" buttonType="RAISED" layoutX="10.0" layoutY="197.0" minHeight="45.0" onAction="#menuChoice" prefHeight="45.0" prefWidth="200.0" ripplerFill="#fc0000" style="-fx-background-color: #f1f1f1;" text="Modify Quiz" />
+      <JFXButton fx:id="exit" buttonType="RAISED" layoutX="10.0" layoutY="271.0" minHeight="45.0" onAction="#menuChoice" prefHeight="45.0" prefWidth="200.0" ripplerFill="#fc0000" style="-fx-background-color: #f1f1f1;" text="Settings" />
+      <JFXButton fx:id="b11" buttonType="RAISED" minHeight="45.0" onAction="#menuChoice" prefHeight="45.0" prefWidth="200.0" ripplerFill="#fc0000" style="-fx-background-color: #f1f1f1;" text="Share Learning Source" />
+      <JFXButton fx:id="b111" buttonType="RAISED" minHeight="45.0" onAction="#menuChoice" prefHeight="45.0" prefWidth="200.0" ripplerFill="#fc0000" style="-fx-background-color: #f1f1f1;" text="Log Out" />
+   </children>
+</VBox>

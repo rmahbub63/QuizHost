@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProgLogicUIController.QuizEntryUIController">
+   <children>
+      <TextField fx:id="txtQuizName" layoutX="228.0" layoutY="116.0" prefHeight="25.0" prefWidth="252.0" />
+      <Label layoutX="102.0" layoutY="116.0" prefHeight="25.0" prefWidth="68.0" text="Quiz Name" />
+      <TextField fx:id="txtNoOfQuestion" layoutX="229.0" layoutY="157.0" prefHeight="25.0" prefWidth="252.0" />
+      <Label layoutX="102.0" layoutY="157.0" prefHeight="25.0" prefWidth="112.0" text="No of Question" />
+      <TextField fx:id="txtTime" layoutX="228.0" layoutY="196.0" prefHeight="25.0" prefWidth="252.0" />
+      <Label layoutX="102.0" layoutY="196.0" prefHeight="25.0" prefWidth="76.0" text="Time" />
+      <TextField fx:id="txtAccessPass" layoutX="228.0" layoutY="238.0" prefHeight="25.0" prefWidth="252.0" />
+      <Label layoutX="102.0" layoutY="238.0" prefHeight="25.0" prefWidth="76.0" text="Access Pass" />
+      <Button layoutX="363.0" layoutY="297.0" mnemonicParsing="false" onAction="#entryQuestionBtnAction" prefHeight="25.0" prefWidth="112.0" stylesheets="@../design/style.css" text="Entry Questions" />
+      <Button layoutX="234.0" layoutY="297.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="112.0" stylesheets="@../design/style.css" text="Clear" />
+      <JFXDrawer fx:id="drawer" defaultDrawerSize="200.0" layoutY="3.0" prefHeight="400.0" prefWidth="178.0" />
+      <JFXHamburger fx:id="hamburger" layoutX="7.0" layoutY="9.0" stylesheets="@../design/style.css" />
+      <Label alignment="CENTER" layoutX="109.0" layoutY="29.0" prefHeight="69.0" prefWidth="406.0" text="Quiz Host" textFill="#039ed3">
+         <font>
+            <Font name="Broadway" size="31.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

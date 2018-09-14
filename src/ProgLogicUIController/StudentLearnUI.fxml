@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProgLogicUIController.StudentLearnUIController">
+   <children>
+      <Label layoutX="177.0" layoutY="147.0" prefHeight="69.0" prefWidth="238.0" text="Not Done Yet">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <JFXDrawer fx:id="drawer" defaultDrawerSize="200.0" prefHeight="400.0" prefWidth="178.0" />
+      <JFXHamburger fx:id="hamburger" layoutX="7.0" layoutY="6.0" stylesheets="@../design/style.css" />
+   </children>
+</AnchorPane>
